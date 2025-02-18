@@ -9,7 +9,7 @@ import joblib
 
 num_classes = 7  # FER2013 typically has 7 emotions
 batch_size = 32
-learning_rate = 1e-3
+learning_rate = 0.0001
 num_epochs = 10
 dataset_root = "./data"
 transform = transforms.Compose([
